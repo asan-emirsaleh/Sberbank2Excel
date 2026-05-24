@@ -90,7 +90,7 @@ def main():
                                         parents=[generate_PDFtext2Excel_argparser()],
                                         formatter_class=argparse.RawDescriptionHelpFormatter)
    
-    parser.add_argument('-i','--interm', action='store_true', default=False, dest='leave_intermediate_txt_file', help='Не удалять промежуточный текстовый файт')
+    parser.add_argument('-i','--interm', action='store_true', default=False, dest='leave_intermediate_txt_file', help='Не удалять промежуточный текстовый файл')
 
     args = parser.parse_args()
 
